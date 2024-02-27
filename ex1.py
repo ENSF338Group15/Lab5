@@ -17,7 +17,6 @@ operator_dict = {
 
 
 def op(exp: str):
-    print(f'!!{exp}')
     if '(' not in exp:
         return int(exp)
     else:
