@@ -35,7 +35,6 @@ def op(exp: str):
                     count -= 1
                 if count == 0:
                     break
-            print(exp, index, exp[:index+2], exp[index+3:], sep=';')
             n1 = op(exp[:index+2])
             n2 = op(exp[index+3:])
         else:
